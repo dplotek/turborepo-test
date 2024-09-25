@@ -51,7 +51,7 @@ export default function Home() {
         </Button>
       </main>
       <footer className={styles.footer}>
-        <p>Turborepo v.3</p>
+        <p>Turborepo v.4</p>
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
