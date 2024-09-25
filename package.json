@@ -2,7 +2,9 @@
   "name": "turborepo-next-laravel",
   "private": true,
   "scripts": {
-    "dev": "turbo run dev",
+    "dev": "concurrently \"pnpm run dev:client\" \"pnpm run dev:server\"",
+    "dev:client": "cd apps/client && npm run dev",
+    "dev:server": "cd apps/server && ./vendor/bin/sail up",
     "build": "turbo run build",
     "lint": "turbo run lint",
     "test": "turbo run test"
