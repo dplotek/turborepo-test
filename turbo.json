@@ -8,9 +8,7 @@
         "dist/**",
         "build/**"
       ],
-      "server": {
-        "enabled": false
-      }
+      "filter": "!apps/server"
     },
     "lint": {
       "outputs": []
