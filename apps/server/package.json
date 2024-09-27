@@ -4,7 +4,7 @@
     "type": "module",
     "scripts": {
         "dev": "./vendor/bin/sail up",
-        "build": "php artisan optimize",
+        "build": "",
         "lint": "phpcs",
         "test": "./vendor/bin/sail test"
     },
